@@ -1,3 +1,6 @@
-<p>
-  user works!
-</p>
+<h1>User Detail Information</h1>
+<div *ngIf ="user">
+  <h3>{{ user.name }}</h3>
+  <p>email: {{ user.email }}<p>
+  <small>followers: {{ user.followers }}</small>
+</div>
